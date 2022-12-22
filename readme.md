@@ -1,1 +1,1 @@
-Live:https://cards-fawn-alpha.vercel.app/
+Live:https://frontend-indol-two.vercel.app/
