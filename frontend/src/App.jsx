@@ -10,6 +10,7 @@ import {
   Flex,
   Heading,
   Spinner,
+  Badge,
 } from "@chakra-ui/react";
 import axios from "axios";
 function App() {
@@ -190,10 +191,13 @@ function App() {
 
   return (
     <Stack className="App" textAlign="center">
-      <Heading>Cards Game</Heading>
+      <Badge colorScheme="purple">
+        {" "}
+        <Heading>Cards Game</Heading>
+      </Badge>
 
       <SimpleGrid
-        columns={4}
+        columns={[1, 2, 3, 4]}
         justify="space-between"
         align="center"
         gap={5}
